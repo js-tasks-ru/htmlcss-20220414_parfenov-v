@@ -1,0 +1,33 @@
+.footer {
+    height: 200px;
+    background-color: #ffff;
+    padding-top: 71px;
+}
+.footer__title {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 38px;
+line-height: 48px;
+color: #212429;
+margin: 0;
+text-align: center;
+
+/*padding-bottom: 32px; отодвинуть следующий элемент вниз*/
+margin-bottom: 32px;
+}
+.footer__description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #212429;
+    /*width: 640px; лучше использовать max-width*/
+    max-width: 640px;
+    /*height: 96px; высоту не фиксируем чтобы мог поместиться дополнительный текст*/
+    /*margin: 0;
+    text-align: center; */
+    margin: 0 auto;
+}
