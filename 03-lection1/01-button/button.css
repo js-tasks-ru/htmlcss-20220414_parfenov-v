@@ -1,1 +1,72 @@
 /* Стилизация кнопки */
+.body {
+    background-color:#E5E5E5;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.page {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:#ffffff;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 633px;
+    justify-content: space-between;
+}
+.buttoncontainer {
+    display: flex;
+    flex-direction: column;
+    height: 112px;
+    justify-content: space-between;
+}
+.button {
+height: 48px;
+width: 189px;
+left: 0px;
+top: 0px;
+border-radius: 8px;
+}
+.button__primary {
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    }
+.button__primary-hover:hover {
+    background-color: #2342C0;
+    border: 1px solid #2342C0;
+}
+.button__secondary {
+    background-color: var(--secondary);
+    border: 1px solid var(--secondary);
+}
+.button__secondary-hover:hover {
+    background-color: #5028C6;
+    border: 1px solid #5028C6;
+}
+
+.button__alternate {
+    border: 1px solid #ACB5BD;
+    background-color: #FFFFFF;
+}
+.button__alternate-hover:hover {
+    border: 1px solid #212429;
+    }
+
+
+.button-disabled {
+    opacity: 0.5;
+}
+.button__title {
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+}
+.button__title-alternate {
+    color:#495057;
+}
