@@ -25,6 +25,11 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+    --primaryHover: #2342C0;
+    --secondaryHover: #5028C6;
+    --alternateBorder:#ACB5BD;
+    --alternateBorderHover:#212429;
+    --alternateText:#495057;
 }
 
 * {
