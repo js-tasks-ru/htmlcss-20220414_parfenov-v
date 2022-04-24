@@ -4,15 +4,49 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./accordion.css">
+        <style>
+            .body {
+                background-color:#E5E5E5;
+                padding-top: 50px;
+                padding-left: 100px;
+            }
+            .container {
+                background-color: var(--white);
+                padding-top: 50px;
+                padding-left: 100px;
+                padding-bottom: 50px;
+            }
+        </style>
     </head>
-    <body>
-        <details>
-            <summary>
-                Accordion item
-            </summary>
-            <p>
-                Hidden content
-            </p>
-        </details>
+    <body class="body">
+        <div class="container">
+            <p>ACCORDION</p>
+        </div>
+        <div class="container">
+                <details class="accordion__item">
+                    <summary class="accordion__title">
+                        Accordion item 1
+                    </summary>
+                    <p class="accordion__text">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet
+                    </p>
+                </details>
+                <details class="accordion__item">
+                    <summary class="accordion__title">
+                        Accordion item 2
+                    </summary>
+                    <p class="accordion__text">
+                        Hidden content 2
+                    </p>
+                </details>
+                <details class="accordion__item">
+                    <summary class="accordion__title">
+                        Accordion item 3
+                    </summary>
+                    <p class="accordion__text">
+                        Hidden content 3
+                    </p>
+                </details>
+    </div>
     </body>
 </html>
