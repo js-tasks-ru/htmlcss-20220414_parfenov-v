@@ -25,6 +25,9 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+    --accordionBorder: #ACB5BD;
+    --accordionText:#495057;
+    --accordionTitle: var(--black);
 }
 
 * {
