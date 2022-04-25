@@ -3,7 +3,7 @@
 .button {
 box-sizing: border-box;
 height: 48px;
-width: 189px;
+min-width: 189px;
 border-radius: 8px;
 }
 .button_primary {
