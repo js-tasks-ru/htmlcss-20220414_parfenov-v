@@ -1,17 +1,17 @@
-.card {
-width: 579px;
-height: 192px;
-background: #FFFFFF;
-border: 1px solid #ACB5BD;
+.skeleton {
+max-width: 579px;
+max-height: 192px; /*исправлено */
+background: var (--backgrounSkeleton);
+border: 1px solid var(--borderSkeleton);
 box-sizing: border-box;
 border-radius: 8px;
-padding-top: 24px;
-padding-left: 24px;
+padding: 24px 40px 32px 24px;
+
 }
 .card__avatar {
     width: 64px;
     height: 64px;
-    background-color: #DDE2E5;
+    background-color: var(--avatarSkeleton);
     border-radius: 50%;
     margin-right: 16px;
 }
@@ -22,9 +22,9 @@ justify-content: baseline;
 
 }
 .card__section3 {
-    display: flex;
+   /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
 }
 .card__line:last-child {
     margin-bottom: 0;
@@ -33,17 +33,15 @@ justify-content: baseline;
 padding-top: 24px;
 }
 .card__line {
-    width: 515px;
+    /*width: 515px; должно растягиваться самостоятельно*/
     height: 20px;
     background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
     margin-bottom: 8px;
 }
-.card__line:last-child {
-    margin-bottom: 0;
-}
+
 .card__line_short {
-    width: 172px;
+    width: 40%;
 }
 .card__line_medium {
-    width:257px
+    width: 70%;
 }
