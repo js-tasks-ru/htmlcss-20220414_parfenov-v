@@ -3,9 +3,73 @@
 <html lang="ru">
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
+        <style>
+            .body {
+    background-color:#E5E5E5;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.page {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:var(--white);
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 633px;
+    justify-content: space-between;
+}
+.buttoncontainer {
+    display: flex;
+    flex-direction: column;
+    height: 112px;
+    justify-content: space-between;
+}
+        </style>
         <link rel="stylesheet" href="./button.css">
     </head>
-    <body>
-
+    <body class="body">
+        <div class="page">
+            <div class="container">
+                <div class="buttoncontainer"> 
+                    <form>
+                        <button class="button button_primary" >  
+                            <span class="button__text">Primary</span>
+                        </button>
+                    </form>
+                    <form>
+                        <button class="button button_primary button_disabled" disabled> 
+                            <span class="button__text">Primary</span>
+                        </button>
+                    </form>
+                </div>
+                <div class="buttoncontainer"> 
+                    <form>
+                        <button class="button button_secondary">  
+                            <span class="button__text">Secondary</span>
+                        </button>
+                    </form>
+                    <form>
+                        <button class="button button_secondary button_disabled" disabled>  
+                            <span class="button__text"> Secondary </span>
+                        </button>
+                    </form>
+              </div>
+              <div class="buttoncontainer"> 
+                <form>
+                    <button class="button button_alternate button_alternatehover">  
+                        <span class="button__text button__text_alternate">Alternate</span>
+                    </button>
+                </form>
+                <form>
+                    <button class="button button_alternate button_disabled" disabled>  
+                        <span class="button__text button__text_alternate">Alternate</span>
+                    </button>
+                </form>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
