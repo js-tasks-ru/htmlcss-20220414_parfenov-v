@@ -25,6 +25,9 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+    --backgrounSkeleton: var(--white);
+    --borderSkeleton:  #ACB5BD;
+    --avatarSkeleton: #DDE2E5;
 }
 
 * {
