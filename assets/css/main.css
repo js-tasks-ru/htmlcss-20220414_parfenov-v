@@ -27,6 +27,7 @@
     --secondary: var(--purple);
     --histogramBar: #4263EB;
     --histogramBorder: #ACB5BD;
+    --histogrammAmount^ var (-black);
 }
 
 * {
