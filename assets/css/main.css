@@ -30,8 +30,10 @@
     --alternateBorder:#ACB5BD;
     --alternateBorderHover:#212429;
     --alternateText:#495057;
+    --tooltipBackground:var(--black); 
+    --tooltipText:var(--white);
 }
 
-* {
+body {
     font-family: 'Roboto', sans-serif;
 }
