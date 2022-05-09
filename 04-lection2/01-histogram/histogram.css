@@ -54,7 +54,9 @@
     gap: 1px;
 }
 .histogram__bar {
-    width: 9px;
+    flex-basis: 9px;
+    flex-grow: 1;
+   
     /*height: 40px;*/
     background: var(--histogramBar);
     /*margin-right:1px;*/
